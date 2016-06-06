@@ -1,0 +1,40 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+body {
+  font-family: Helvetica;
+  background-color: #555;
+  margin: 0;
+  padding: 0;
+}
+header, nav {
+  display: block;
+  position: relative;
+}
+.wrapper {
+  width:95%;
+  max-width: 800px;
+  margin:auto;
+}
+header {
+  width: 100%;
+  background-color: #333;
+}
+
+nav {
+  font-size: 0;
+}
+
+a {
+  font-size: x-large;
+  font-weight: bold;
+  display: inline-block;
+  color:#aaa;
+  text-decoration: none;
+  padding:1.5em;
+}
+
+a:hover {
+  color:#fff;
+}
+
