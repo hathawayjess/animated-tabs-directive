@@ -38,3 +38,15 @@ a:hover {
   color:#fff;
 }
 
+.highlight {
+  position: absolute;
+  font-size: medium;
+  bottom:0;
+  left:0px;
+  height: .2em;
+  width: 0px;
+  background-color: #3399FF;
+  z-index: 50;
+  transition: all ease 300ms;
+}
+  
