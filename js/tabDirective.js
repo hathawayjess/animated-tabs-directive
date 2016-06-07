@@ -19,8 +19,6 @@ angular.module('tabApp')
 			},
 			link: function(scope, element) { //element will be the element you add this directive to (nav)
 				//add highlight element to DOM
-				console.log(scope)
-				console.log(element)
 				var h = document.createElement("div"); //creates a div element on the DOM
 				h.classList.add('highlight'); //adds the 'highlight' class to the div element
 				scope.highlight = element[0].appendChild(h); //element is nav
