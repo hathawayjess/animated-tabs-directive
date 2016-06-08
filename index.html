@@ -9,11 +9,8 @@
 
 <header ng-controller="tabCtrl">
 	<div class="wrapper">
-		<nav>
-			<a href="#">Animated</a>
-			<a href="#">Tabs</a>
-			<a href="#">Directive</a>
-			<a href="#">Example</a>
+		<nav animated-tabs>
+			 <a href="#" ng-repeat="tab in tabs" ng-click="navigate($event)">{{tab}}</a> 
 		</nav>
 	</div>
 </header>
